@@ -14,14 +14,23 @@ Překlad: Pro vyzkoušení překládejte program s následujícími argumenty
 Program se spouští v následující podobě:
 
 `./proj3 --help`
+
 nebo
+
 `./proj3 --test soubor.txt`
+
 nebo
+
 `./proj3 --rpath R C soubor.txt`
+
 nebo
+
 `./proj3 --lpath R C soubor.txt`
+
 nebo (nepovinné, prémiové)
+
 `./proj3 --shortest R C soubor.txt`
+
 Argumenty programu:
 
 - --help způsobí, že program vytiskne nápovědu používání programu a skončí.
