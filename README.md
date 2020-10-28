@@ -39,7 +39,7 @@ Argumenty programu:
 - --lpath hledá průchod bludištěm na vstupu na řádku R a sloupci C, ale za pomoci pravidla levé ruky.
 - --shortest (prémiové řešení) hledá nejkratší cestu z bludiště při vstupu na řádku R a sloupci C.
 
-![Image alt]https://github.com/44sides/-VUT-IZP3/blob/main/img/Mapa_trojuhelnik.png
+![Image alt](https://github.com/44sides/-VUT-IZP3/blob/main/img/Mapa_trojuhelnik.png)
 
 Bludiště je aproximováno do mapy trojúhelníkových políček. Mapa bludiště je uložena v textovém souboru. Jméno souboru s mapu je zadáno v argumentu programu. Soubor obsahuje číselné údaje oddělené bílými znaky. První dva číselné údaje reprezentují velikost obrázku v počtu trojúhelníkových políček (výška a šířka mapy - tedy počet řádků a počet sloupců). Následují definice jednotlivých řádků (oddělené bílým znakem), kde každý řádek obsahuje hodnoty jednotlivých políček. 3 bitová hodnota každého políčka definuje, jak vypadá hranice daného políčka. Bit s hodnotou 1 značí, že dané poličko má neprůchozí stěnu na dané hranici, bit s hodnotou 0 značí, že daná hranice je průchozí:
 
@@ -94,7 +94,7 @@ Přirozeně a obdobně pro hledání pomocí pravidla levé ruky (u daných př�
 
 ### Příklady vstupů a výstupů
 
-![Image Alt]https://github.com/44sides/-VUT-IZP3/blob/main/img/Mapa_trojuhelnik_ex2.png
+![Image Alt](https://github.com/44sides/-VUT-IZP3/blob/main/img/Mapa_trojuhelnik_ex2.png)
 
 Nechť je mapa vyobrazená v předcházejícím obrázku uložena v souboru bludiste.txt s následujícím obsahem (plné hrany na obrázku značí stěnu, čárkované volný prostor):
 
